@@ -14,7 +14,7 @@ python3 -m pip install -U gallery-dl
 pkg install aria2 ffmpeg
 
 # Setting up bashrc-profile
-cp configs/.bash_profile ~
+mv Configs/.bash_profile ~
 
 # Storage Permission---------------------------
 termux-setup-storage
@@ -22,4 +22,8 @@ termux-setup-storage
 sleep 5s # Waits 5 seconds.
 # Ls into storage
 ls ~/storage/shared
+#----------------------------------------------
+
+# Setting up configs --------------------------
+mv Configs ~/storage/shared/
 #----------------------------------------------
