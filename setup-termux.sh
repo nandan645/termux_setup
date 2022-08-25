@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update System -------------------------------
-apt update && apt upgrade -y apt autoremove -y
+apt update && apt upgrade -y
 #----------------------------------------------
 
 # Storage Permission---------------------------
