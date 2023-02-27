@@ -6,6 +6,6 @@ alias pip-upgrade="pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -
 alias pip-update="python -m pip list -o"
 
 # Setting Up Proxy
-export http_proxy="http://gateway.iitmandi.ac.in:8080"
-export https_proxy="http://gateway.iitmandi.ac.in:8080"
-export no_proxy="localhost.127.0.0.1,::1,localhost"
+# export http_proxy="http://gateway.iitmandi.ac.in:8080"
+# export https_proxy="http://gateway.iitmandi.ac.in:8080"
+# export no_proxy="localhost.127.0.0.1,::1,localhost"
