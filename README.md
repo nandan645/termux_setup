@@ -1,5 +1,7 @@
 # Termux_Setup
 
+## Automating Termux Setup using shell
+
 - Grant "Storge" Permission from app settings before starting script for seamless automation.
 - Update system before using script. `yes | pkg upgrade`
 - Install git `yes | pkg install git`
